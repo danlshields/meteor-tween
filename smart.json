@@ -1,0 +1,8 @@
+{
+  "name": "tween",
+  "description": "tween.js repackaged for Meteor",
+  "homepage": "https://github.com/vedosity/meteor-tween",
+  "author": "Danny Shields <vedosity@gmail.com>",
+  "version": "r10",
+  "git": "https://github.com/vedosity/meteor-tween.git"
+}
