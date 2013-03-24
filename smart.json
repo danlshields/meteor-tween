@@ -3,6 +3,6 @@
   "description": "tween.js repackaged for Meteor",
   "homepage": "https://github.com/vedosity/meteor-tween",
   "author": "Danny Shields <vedosity@gmail.com>",
-  "version": "r10",
+  "version": "0.10.0",
   "git": "https://github.com/vedosity/meteor-tween.git"
 }
