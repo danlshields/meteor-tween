@@ -3,8 +3,12 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-  where = where || ['client', 'server'];
-
-  api.add_files('lib/tween.js/src/Tween.js', where);
+  where = where || ['client'];
+  if (api.export) {
+    api.export('TWEEN');
+  }
+  root = this;
+  api.add_files('lib/Tween.js', where);
   api.add_files('export-tween.js', where);
-})
+});
+

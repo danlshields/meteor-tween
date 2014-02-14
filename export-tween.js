@@ -1,3 +1,5 @@
-if (typeof Package !== "undefined") {
-  TWEEN = this.TWEEN;
-}
+(function() {
+  if (typeof Package !== "undefined") {
+    TWEEN = this.TWEEN;
+  }
+}());
