@@ -1,3 +1,0 @@
-[submodule "lib/tween.js"]
-	path = lib/tween.js
-	url = git://github.com/sole/tween.js.git
