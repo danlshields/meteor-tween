@@ -1,8 +1,8 @@
 {
   "name": "tween",
-  "description": "tween.js repackaged for Meteor",
+  "description": "Super simple, fast and easy to use tweening engine which incorporates optimised Robert Penner's equations.",
   "homepage": "https://github.com/vedosity/meteor-tween",
   "author": "Danny Shields <vedosity@gmail.com>",
   "version": "0.13.1",
-  "git": "https://github.com/vedosity/meteor-tween.git"
+  "git": "https://github.com/foxdog-studios/meteor-tween.git"
 }

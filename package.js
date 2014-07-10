@@ -1,10 +1,9 @@
 Package.describe({
-  summary: "tween.js repackaged for Meteor"
+  summary: "Super simple, fast and easy to use tweening engine which incorporates optimised Robert Penner's equations."
 });
 
-Package.on_use(function (api, where) {
-  where = where || ['client', 'server'];
- 
-  api.add_files('lib/Tween.js', where);
-  api.export('TWEEN', where);
-})
+Package.on_use(function (api) {
+  api.add_files(['lib/Tween.js'], ['client']);
+  api.export('TWEEN');
+});
+
